@@ -8,14 +8,19 @@
   </head>
 
   <body>
-    <h1>THE GREAT <br><span id="rgbDisplay">RGB</span><br> GUESSING GAME</h1>
-    <div>
-      <navbar>New Colors</navbar>
+    <h1 id="gameTitle">THE GREAT COLOR GAME <br><span id="rgbDisplay">RGB</span></h1>
+    <div id="navStripe">
+      <button id="reset">New Colors</button>
       <span id="messageCenter"></span>
-    <navbar>Easy Hard</navbar>
+      <button id="easyBtn">Easy</button>
+      <button id="mediumBtn">Medium</button>
+      <button id="hardBtn" class="selected">Hard</button>
     </div>
     
     <div id="container">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
       <div class="square"></div>
       <div class="square"></div>
       <div class="square"></div>
